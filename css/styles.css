@@ -1,0 +1,45 @@
+/* основний колір тексту  #212121 */
+/* вторинний колір тексту #757575 */
+/* колір білого тексту #FFFFFF */
+/* наголос #2196F3 */
+/* вторинний колір фону #F5F4FA */
+
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+body {
+    background-color: #F5F5F5;
+    color:var(--primary-text-color);
+}
+ul {
+    list-style: none;
+}
+
+
+
+.logo {
+    color: var(--accent-color);
+}
+/* site nav */
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+.site-nav .link:hover, .site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link .current {
+    color: var(--accent-color);
+}
+/* contacts */
+.contacts  {
+    color: #757575;
+}
+
+/* Button */
+.button {
+   color: #FFFFFF ;
+   background-color: var(--accent-color);
+}
