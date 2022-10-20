@@ -5,74 +5,73 @@
 /* вторинний колір фону #F5F4FA */
 
 :root {
-    --primary-text-color: #212121;
-    --title-text-color: #757575;
-    --accent-color: #2196F3;
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
 }
 
 body {
-    background-color: #F5F5F5;
-    color: var(--primary-text-color);
-    font-family: Roboto,sans-serif ;
+  background-color: #f5f5f5;
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
-h1,h2,h3,{
 
-
-}
 ul {
-    list-style: none;
+  list-style: none;
 }
-
 
 /* logo */
 .header-logo {
-font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    /* identical to box height */
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
 
-    letter-spacing: 0.03em;
 .header-logo-web {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
-.header-logo:hover, .header-logo:focus {
-    color: var(--accent-color);
+
+.header-logo:hover,
+.header-logo:focus {
+  color: var(--accent-color);
 }
+
 /* site nav */
 .site-nav-link {
-    Font family: Roboto
-Font style: Medium
-Font size: 14px
-Line height: 16px
-Line height: 100%
-Align: Left
-Vertical align: Top
-Letter spacing: 2%
-}
-.site-nav .link:hover, .site-nav .link:focus {
-    color: var(--accent-color);
-}
-.site-nav .link .current {
-    color: var(--accent-color);
-}
-/* Фільтр */
-.filter {
-    
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 
-/* Button */
-.button {
-   color: #FFFFFF ;
-   background-color: var(--accent-color);
-Font size: 16px
-Line height: 1.88
-Line height: 160%
-Align: Center
-Vertical align: Center
-Letter spacing: 6%
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link .current {
+  color: var(--accent-color);
+}
+.header-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+  color: var(--accent-color);
+}
+
+/* Фільтр */
+.filter {
 }
