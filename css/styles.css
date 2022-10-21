@@ -73,8 +73,6 @@ ul {
 }
 
 /* Фільтр */
-.filter {
-}
 
 /* Hero */
 .hero-title {
@@ -96,6 +94,7 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 
   color: #ffffff;
 }
@@ -104,7 +103,25 @@ ul {
   color: var(--accent-color);
 }
 /* Section */
+/* Feateures */
 .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 17;
+  letter-spacing: 0.03em;
 }
 
-/* Feateures */
+.feateur-list .titel {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
