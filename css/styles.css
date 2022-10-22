@@ -11,7 +11,6 @@
 }
 
 body {
-  background-color: #f5f5f5;
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
 }
@@ -74,11 +73,28 @@ ul {
   color: var(--accent-color);
 }
 
-/* Фільтр */
-
 /* Портфоліо */
+
+/* Фільтр */
+.portfolio-item {
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.filter-button {
+  border: none;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+
 .portfolio-list-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -86,7 +102,7 @@ ul {
   color: var(--primary-text-color);
 }
 .portfolio-list-text {
-  nt-size: 16px;
+  font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
 
@@ -94,6 +110,9 @@ ul {
 }
 
 /* Hero */
+.hero {
+  background: #2f303a;
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -101,6 +120,12 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: #ffffff;
+}
+.button-hero {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   color: #ffffff;
 }
 .button {
@@ -117,27 +142,43 @@ ul {
 
   color: #ffffff;
 }
-.button:hover,
-.button:focus {
-  color: var(--accent-color);
-}
+
 /* Section */
 /* Feateures */
+.title-hide {
+  pointer-events: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .section-title {
-  font-weight: 700;
   font-size: 36px;
-  line-height: 1, 17;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
-.feateur-list .titel {
-  font-weight: 700;
+.feateure-title {
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
+.team {
+  background: #f5f4fa;
+}
+.team-list-item {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
 .text {
   font-size: 14px;
   line-height: 1.71;
@@ -169,18 +210,14 @@ footer {
   color: #ffffff;
 }
 
-.address {
-  font-size: 14px;
-  line-height: 1.17;
-
-  letter-spacing: 0.03em;
-
-  color: #ffffff;
-}
-
-.footer-contacts {
+.footer-address {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-address:hover,
+.footer-address:focus {
+  color: #ffffff;
 }
