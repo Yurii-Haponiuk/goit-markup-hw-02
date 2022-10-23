@@ -8,6 +8,11 @@
   --primary-text-color: #212121;
   --title-text-color: #757575;
   --accent-color: #2196f3;
+  --black: #000000;
+  --background-white: #f5f4fa;
+  --text-color-white: #ffffff;
+  --background-hero: #2f303a;
+  --footer-addres: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -37,7 +42,7 @@ ul {
   color: var(--accent-color);
 }
 .header-logo-studio {
-  color: #000000;
+  color: var(--black);
 }
 /* .header-logo:hover,
 .header-logo:focus {
@@ -79,11 +84,9 @@ ul {
 /* Портфоліо */
 
 /* Фільтр */
-.portfolio-item {
-  background: #f5f4fa;
-  border-radius: 4px;
-}
 .filter-button {
+  background: var(--background-white);
+  border-radius: 4px;
   border: none;
   font-size: 16px;
   line-height: 1.63;
@@ -93,8 +96,8 @@ ul {
 
 .filter-button:hover,
 .filter-button:focus {
-  background: #2196f3;
-  color: #ffffff;
+  background: var(--accent-color);
+  color: var(--text-color-white);
 }
 
 .portfolio-list-title {
@@ -109,7 +112,7 @@ ul {
   line-height: 1.88;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--title-text-color);
 }
 
 /* Hero */
@@ -123,13 +126,12 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--text-color-white);
 }
 .button-hero {
-  background: #2196f3;
+  background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  color: #ffffff;
+  color: var(--text-color-white);
 }
 .button {
   font-family: inherit;
@@ -143,7 +145,7 @@ ul {
   letter-spacing: 0.06em;
   cursor: pointer;
 
-  color: #ffffff;
+  color: var(--text-color-white);
 }
 
 /* Section */
@@ -174,14 +176,15 @@ ul {
   text-transform: uppercase;
 }
 .team {
-  background: #f5f4fa;
+  background: var(--background-white);
 }
 .team-list-item {
-  background: #ffffff;
+  background: var(--text-color-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
 .text {
   font-size: 14px;
   line-height: 1.71;
@@ -198,7 +201,7 @@ ul {
 
 .team-text {
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 
   color: var(--title-text-color);
@@ -206,11 +209,11 @@ ul {
 
 /* Footer */
 footer {
-  background: #2f303a;
+  background: var(--background-hero);
 }
 /* Foter logo */
 .footer-logo-studio {
-  color: #ffffff;
+  color: var(--text-color-white);
 }
 
 .footer-address {
@@ -218,9 +221,9 @@ footer {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-addres);
 }
 .footer-address:hover,
 .footer-address:focus {
-  color: #ffffff;
+  color: var(--text-color-white);
 }
