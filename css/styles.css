@@ -57,7 +57,10 @@ ul {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-.site-nav .link .current {
+.site-nav-link.link:current {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
   color: var(--accent-color);
 }
 .header-contacts {
@@ -102,7 +105,7 @@ ul {
   color: var(--primary-text-color);
 }
 .portfolio-list-text {
-  font-size: 16px;
+  front-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
 
